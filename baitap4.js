@@ -1,25 +1,36 @@
-function docSo() {
-    let number = document.getElementById("soNhap").value;
-    switch (number) {
-        case "0": console.log("Số không");
-        break;
-        case "1": console.log("Số một"); 
-        break;
-        case "2": console.log("Số hai"); 
-        break;
-        case "3": console.log("Số ba"); 
-        break;
-        case "4": console.log("Số bốn"); 
-        break;
-        case "5": console.log("Số năm"); 
-        break;
-        case "6": console.log("Số sáu"); 
-        break;
-        case "7": console.log("Số bảy"); 
-        break;
-        case "8": console.log("Số tám"); 
-        break;
-        case "9": console.log("Số chín"); 
-        break;
-    }
+let number = prompt("Nhập một số từ 0 đến 9:");
+switch (number) {
+    case 0: 
+        console.log("Số Không");
+    break;
+    case "1": 
+        console.log("Số Một");
+    break;
+    case "2": 
+        console.log("Số Hai"); 
+    break;
+    case "3": 
+        console.log("Số Ba"); 
+    break;
+    case "4": 
+        console.log("Số Bốn");
+    break;
+    case "5": 
+        console.log("Số Năm");
+    break;
+    case "6": 
+        console.log("Số Sáu");
+    break;
+    case "7": 
+        console.log("Số Bảy");
+    break;
+    case "8": 
+        console.log("Số Tám");
+    break;
+    case "9": 
+        console.log("Số Chín");
+    break;
+    default: 
+        console.log("Nhập lại số!!!");
+    break;
 }
